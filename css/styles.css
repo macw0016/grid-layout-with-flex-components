@@ -19,6 +19,7 @@ body {
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    order:1;
   }
   
   .emoji a {
@@ -27,8 +28,13 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    
   }
   
   .icon {
     font-size: 4rem;
+    order:-1;
+    align-self: center;
   }
+
+  
