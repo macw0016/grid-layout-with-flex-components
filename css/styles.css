@@ -5,21 +5,23 @@ body {
 
   .emojis {
     display: grid;
-    grid-template-columns: 30% 30%;
-    grid-auto-rows: 300px;
-    gap:20px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
   
   .emoji {
+    display:flex;
+    flex-direction: column;
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
+    margin: auto 0px;
   }
   
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-    order:1;
   }
   
   .emoji a {
@@ -28,8 +30,7 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    
-  }
+ }
   
   .icon {
     font-size: 4rem;
